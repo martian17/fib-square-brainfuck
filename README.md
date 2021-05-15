@@ -24,5 +24,5 @@ condition.bigger.js -- compares two numbers at the top of the stack, leaves 0 if
 condition.equal.js -- compares two numbers at the top of the stack, leaves 0 if two numbers are equal, else leaves 1
 ```
 ## Why did I decide to use brainfuck?
-I recently made a brainfuck interpreter and published it on npm, so I thought this would be a perfect opportunity for me to practice brainfuck and learn more about how stack machines function.
+I recently made a brainfuck interpreter and published it on npm, so I thought this would be a perfect opportunity for me to practice brainfuck and learn more about how stack machines function.  
 Also it was a fun challenge:)
