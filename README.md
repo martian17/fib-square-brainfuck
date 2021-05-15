@@ -15,7 +15,7 @@ Every time there is a loop, fib[1] and fib[2] are updated to correspond the next
   
 For more details, please refer to the following files in this repository  
 
-### main files  
+### main files:  
 [fibmatch.bf](https://github.com/martian17/fib-square-brainfuck/blob/main/fibmatch.bf) -- program outline without subroutines embedded  
 [fibmatch.assembled.bf](https://github.com/martian17/fib-square-brainfuck/blob/main/fibmatch.assembled.bf) -- main file with embedded subroutines  
 [fibmatch.assembled.js](https://github.com/martian17/fib-square-brainfuck/blob/main/fibmatch.assembled.js) -- main executable file  
