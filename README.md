@@ -11,7 +11,7 @@ $ node fibmatch.assembled.js
 ## Brief description of the algorithm
 the content of the stack looks as follows  
 [fib[1] fib[2] root]  
-Every time there is a loop, fib[1] and fib[2] are updated to correspond the next fibonacci numbers. Then root is incremented until its square is bigger than fib[2], and subtracted 1 to its square smaller than or equal to fib[2]. if root square at this point equals fib[2], break the loop and output fib[2].  
+Every time there is a loop, fib[1] and fib[2] are updated to correspond the next fibonacci numbers. Then root is incremented until its square is bigger than fib[2], and subtracted 1 to make its square smaller than or equal to fib[2]. if root square at this point equals fib[2], break the loop and output fib[2].  
   
 For more details, please refer to the following files in this repository  
 ```
