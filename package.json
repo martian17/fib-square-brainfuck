@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@martian17/fuckjs": "^1.0.7"
+    "@martian17/fuckjs": "^1.0.8"
   }
 }
