@@ -19,9 +19,9 @@ fibmatch.js -- program outline without subroutines embedded
 fibmatch.assembled.js -- main file with embedded subroutines
 
 subroutines:
-multiplication.js -- multiplies two integers at the top of the stack, leaves the result at the entry point
-condition.bigger.js -- compares two numbers at the top of the stack, leaves 0 if the second integer is bigger, else leaves 1
-condition.equal.js -- compares two numbers at the top of the stack, leaves 0 if two numbers are equal, else leaves 1
+[bf-modules/multiplication.js] -- multiplies two integers at the top of the stack, leaves the result at the entry point
+[bf-modules/condition.bigger.js] -- compares two numbers at the top of the stack, leaves 0 if the second integer is bigger, else leaves 1
+bf-modules/condition.equal.js] -- compares two numbers at the top of the stack, leaves 0 if two numbers are equal, else leaves 1
 ```
 ## Why did I decide to use brainfuck?
 I recently made a [brainfuck interpreter](https://github.com/martian17/jsbf) and [published it on npm](https://www.npmjs.com/package/@martian17/fuckjs), so I thought this would be a perfect opportunity for me to practice brainfuck and learn more about how stack machines function.  
