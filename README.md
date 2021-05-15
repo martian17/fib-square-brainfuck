@@ -23,7 +23,7 @@ For more details, please refer to the following files in this repository
 ### subroutines:  
 [bf-modules/multiplication.bf](https://github.com/martian17/fib-square-brainfuck/blob/main/bf-modules/multiplication.bf) -- multiplies two integers at the top of the stack, leaves the result at the entry point  
 [bf-modules/condition.bigger.bf](https://github.com/martian17/fib-square-brainfuck/blob/main/bf-modules/condition.bigger.bf) -- compares two numbers at the top of the stack, leaves 0 if the second integer is bigger, else leaves 1  
-bf-modules/condition.equal.js](https://github.com/martian17/fib-square-brainfuck/blob/main/bf-modules/condition.equal.bf) -- compares two numbers at the top of the stack, leaves 0 if two numbers are equal, else leaves 1  
+[bf-modules/condition.equal.js](https://github.com/martian17/fib-square-brainfuck/blob/main/bf-modules/condition.equal.bf) -- compares two numbers at the top of the stack, leaves 0 if two numbers are equal, else leaves 1  
   
 ## Why did I decide to use brainfuck?
 I recently made a [brainfuck interpreter](https://github.com/martian17/jsbf) and [published it on npm](https://www.npmjs.com/package/@martian17/fuckjs), so I thought this would be a perfect opportunity for me to practice brainfuck and learn more about how stack machines function.  
