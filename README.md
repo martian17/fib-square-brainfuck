@@ -6,7 +6,8 @@ This is a homework for software architecture 2021 spring at SFC
 $ git clone https://github.com/martian17/fib-square-brainfuck.git
 $ cd fib-square-brainfuck/
 $ npm install
-$ node fibmatch.assembled.js
+$ source set.sh
+$ bf fibmatch.assembled.bf
 ```
 ## Brief description of the algorithm
 the content of the stack looks as follows  
