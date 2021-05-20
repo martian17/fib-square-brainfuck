@@ -1,16 +1,20 @@
 #!/bin/bash
 
+
 if [ -z ${1+x} ]
-    then
+then
     code=$(</dev/stdin)
-    else
+elif [ "-e" == $1 ]
+then
+    code=$2
+else
     code=$(cat $1)
-    fi
+fi
 
 echo "require(\"@martian17/fuckjs\");
 /*
 " > temp.js
-echo $code >> temp.js
+echo "$code" >> temp.js
 echo "
 */" >> temp.js
 node temp.js
